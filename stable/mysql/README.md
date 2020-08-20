@@ -16,7 +16,7 @@ This chart bootstraps a single node MySQL deployment on a [Kubernetes](http://ku
 To install the chart with the release name `my-release`:
 
 ```bash
-$ helm install --name my-release stable/mysql
+$ helm install my-release stable/mysql
 ```
 
 The command deploys MySQL on the Kubernetes cluster in the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
